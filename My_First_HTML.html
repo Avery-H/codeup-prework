@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <title>My First HTML Form</title>
+    </head>
+    <body>
+    
+
+       <form method="POST" action="http://requestb.in/14gc43g">
+    <h1>User Login</h1>
+    <p>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text">
+    </p>
+    <p>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+    </p>
+    <p>
+        <button type="submit">Login</button>
+    </p>
+     <form method="POST" action="http://requestb.in/14gc43g1">
+    <h2>Compose an email </h2>
+    <p>
+    	<label for="To">To</label>
+        <input id="To" name="To" type="text">
+    </p>
+    <p>
+    	<label for="Subject">Subject</label>
+        <input id="Subject" name="Subject" type="text">
+    </p>
+    <p>
+    	<textarea id="Body" name="Body" rows="5" cols="40"> 	</textarea>
+    </p>
+    <p>
+   	   <button type="submit">Send</button>
+   	</p>
+   	<p>
+   		<label><input type="checkbox" id="email_copy" name="email_copy" value="yes" >Save me a copy!</label>
+   	</p>
+   	<h2>Multiple Choice Test</h2>
+
+   		<p>How big are you c;</p>
+<label>
+    <input type="radio" name="q1" value="1-3">
+    1-3 (small)
+</label>
+<label>
+    <input type="radio" name="q1" value="2-4">
+    2-4(still small)
+</label>
+<label>
+    <input type="radio" name="q1" value="4-7">
+    4-7(small-average)
+</label>
+<label>
+    <input type="radio" name="q1" value="8-12">
+    8-12(bane of every other male)
+    </label>
+    <p>
+<label for="Sexuality">Select your type(s) </label>
+<select id="Sexuality" name="Sexuality[]" multiple>
+    <option value="0">Loli</option>
+    <option value="1">Dom</option>
+    <option value="2">Sub</option>
+    <option value="3">Vanilla</option>
+</select>
+</p>
+<h2>Select Testing</h2>
+<p>
+<label for="salads">Do you like salads? </label>
+<select id="salads" name="salads">
+    <option value="1">Yes</option>
+    <option value="0">No</option>
+</select>
+</p>
+</form>
+    </body>
+</html>

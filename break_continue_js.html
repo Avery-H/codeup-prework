@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breaking</title>
+</head>
+<body>
+  
+      <script>
+var random = Math.floor((Math.random()*50)+1);
+      for (var i = 1; i < 50; i++) {
+
+    if (i % 2 !== 1) {
+        continue;
+    }
+
+   if (random == i) {
+
+        console.log('Ignore this number: '+ i);
+        continue;
+        
+    }
+    console.log('Here is an odd number: ' + i);
+}
+
+
+
+      </script>
+    
+</body>
+</html>
